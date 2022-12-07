@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* 
+body {
+    width: 100%;
+} */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 10px;
+    background-color: rgb(68, 106, 219);
+    /* position: sticky;
+    top: 0px;
+    left: 0px; */
+}
+
+#navbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.search-container {
+    float: right;
+  }
+
+  .search-container input {
+    width: 400px;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
+#navbar li {
+    list-style: none;
+    font-weight: 600;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 0px 30px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+#navbar li a:hover {
+    color: white;
+}
+
+.login {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.login h1 {
+    margin-top: 20px;
+}
+
+#emailerror span {
+    margin: 3px;
+    color: red;
+}
+
+#passworderror span {
+    margin: 3px;
+    color: red;
+}
+
+
+.formdesign {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.formdesign input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#loginbtn {
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    margin: 22px 10px;
+    align-items: center;
+    text-align: center;
+    background: blue;
+    color: white;
+}
+
+.signupbtn {
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    margin: 22px 10px;
+    align-items: center;
+    text-align: center;
+    background: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.signup {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.signup h1 {
+    margin-top: 50px;
+}
+
+#nameerror {
+    margin: 3px;
+    color: red;
+}
+
+#mailerror {
+    margin: 3px;
+    color: red;
+}
+
+#passerror {
+    margin: 3px;
+    color: red;
+}
+
+#finalsignup {
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin: 22px 10px;
+    align-items: center;
+    text-align: center;
+    background: blue;
+    color: white;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cart-item1 {
+    display: flex;
+    justify-content: space-between;
+
+
+    /* width: 15%;
+    padding: 10px 12px;
+    margin: 20px 20px;
+    border-radius: 8px;
+    cursor: pointer; */
+}
+
+.details{
+    margin-top: 40px;
+}
+
+.details h2{
+    margin-bottom: 10px;
+}
+.details span{
+    font-size: 20px;
+  
+}
+
+#cart-item1 {
+    text-align: center;
+    margin-top: 25px;
+}
+.star{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.cart-item1 img {
+    width: 30%;
+}
+
+#add-btn {
+width: 60px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.container {
+    top:10%;
+    left:0%;
+    /* transform: translate(-50%, -50%); */
+    position: absolute;
+    width: max-content;
+
+}
+
+.card {
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.card img {
+    width: 400px;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#addcart {
+    /* width: 150px; */
+    border: 2px solid black;
+    background: rgb(53, 106, 172);
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+#addcart:hover{
+    background-color: blue;
+}
+.cart{
+    width:500px;
+    height: 100vh;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    
+}

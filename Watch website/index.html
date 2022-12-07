@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online watch Shopping Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav>
+            <ul id="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <div class="search-container">
+                    <form action="#">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="login">
+        <h1>Login</h1>
+        <form action="#">
+            <div class="formdesign">
+                Email: <input type="email" placeholder="Enter your email" id="useremail"><span id="emailerror"></span>
+            </div>
+
+            <div class="formdesign">
+                password: <input type="password" placeholder="Enter your password" id="userpassword"><span
+                    id="passworderror"></span>
+            </div>
+            <input id="loginbtn" type="button" value="Login">
+            <a href="signup.html"> <input class="signupbtn" type="button" value="Signup"></a>
+        </form>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
